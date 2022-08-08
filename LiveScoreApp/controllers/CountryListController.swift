@@ -38,7 +38,7 @@ class CountryListController: UIViewController {
 extension CountryListController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CountryListCell", for: indexPath) as! CountryListCell
-        cell.countryLabel.text = countryModel[indexPath.item].name
+        cell.configureCell(item: countryModel[indexPath.row])
         return cell
     }
     
