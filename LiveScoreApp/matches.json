@@ -1,0 +1,68 @@
+[
+    {
+        "homeTeam": "Real Madrid",
+        "rival": "Barcelona",
+        "firstScore": "4",
+        "secondScore": "2"
+    },
+    {
+        "homeTeam": "GS",
+        "rival": "BJK",
+        "firstScore": "6",
+        "secondScore": "5"
+    },
+    {
+        "homeTeam": "Aston Villa",
+        "rival": "Qarabagh",
+        "firstScore": "0",
+        "secondScore": "8"
+    },
+    {
+        "homeTeam": "Villareal",
+        "rival": "Qabala",
+        "firstScore": "4",
+        "secondScore": "8"
+    },
+    {
+        "homeTeam": "Alanyaspor",
+        "rival": "FB",
+        "firstScore": "1",
+        "secondScore": "3"
+    },
+    {
+        "homeTeam": "PSV",
+        "rival": "Tvente",
+        "firstScore": "7",
+        "secondScore": "8"
+    },
+    {
+        "homeTeam": "Celta Vigo",
+        "rival": "Neftchi",
+        "firstScore": "0",
+        "secondScore": "0"
+    },
+    {
+        "homeTeam": "Genclerbirlighi",
+        "rival": "Antalyaspor",
+        "firstScore": "3",
+        "secondScore": "3"
+    },
+    {
+        "homeTeam": "Trabzonspor",
+        "rival": "Lex",
+        "firstScore": "3",
+        "secondScore": "8"
+    },
+    {
+        "homeTeam": "Man UTD",
+        "rival": "Crystal Palace",
+        "firstScore": "3",
+        "secondScore": "2"
+    },
+    {
+        "homeTeam": "Aston Villa",
+        "rival": "Qarabagh",
+        "firstScore": "1",
+        "secondScore": "1"
+    },
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "England",
+        "id": 1000,
+        "leagues": [
+            {
+                "name": "Premier League",
+                "id": 1101
+            },
+            {
+                "name": "Championship",
+                "id": 1102
+            }
+        ]
+    },
+    {
+        "name": "Turkey",
+        "id": 2000,
+        "leagues": [
+            {
+                "name": "SuperLig",
+                "id": 2101
+            },
+            {
+                "name": "PTT",
+                "id": 2102
+            }
+        ]
+    },
+    {
+        "name": "Azerbaijan",
+        "id": 3000,
+        "leagues": [
+            {
+                "name": "Premyer Liga",
+                "id": 3101
+            },
+            {
+                "name": "Second Liga",
+                "id": 3102
+            }
+        ]
+    },
+    {
+        "name": "Spain",
+        "id": 4000,
+        "leagues": [
+            {
+                "name": "LaLiga",
+                "id": 4101
+            },
+            {
+                "name": "Segunda",
+                "id": 4102
+            }
+        ]
+    }
+]

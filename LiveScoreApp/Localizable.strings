@@ -1,0 +1,185 @@
+/*
+  Localizable.strings
+  LiveScoreApp
+
+  Created by Vasif Mehdizade on 26.07.22.
+
+*/
+//{
+//    "name": "Spain",
+//    "id" :2000,
+//    "match" : [
+//        {
+//            "name" : "Real Madrid - Barcelona 5:0",
+//            "id" :2001
+//        },
+//        {
+//            "name" : "Villareal - Sevilla 5:4",
+//            "id" :2002
+//        }
+//    ]
+//    "leagues": [
+//        {
+//            "name": "La Liga",
+//            "id" :2101,
+//            "footballClubs": [
+//                {
+//                    "name": "Real Madrid",
+//                    "id" :2102
+//                },
+//                {
+//                    "name": "Barcelona",
+//                    "id" :2103
+//                },
+//                {
+//                    "name": "Villareal",
+//                    "id" :2104
+//                }
+//                {
+//                    "name": "Sevilla",
+//                    "id" :2105
+//                }
+//            ]
+//            "name": "Segunda",
+//            "id" :2201,
+//            "footballClubs": [
+//                {
+//                    "name": "Espanyol",
+//                    "id" :2202
+//                },
+//                {
+//                    "name": "Valladolid",
+//                    "id" :2203
+//                },
+//                {
+//                    "name": "Celta Vigo",
+//                    "id" :2204
+//                }
+//                {
+//                    "name": "Elche",
+//                    "id" :2205
+//                }
+//            ]
+//        }
+//    ]
+//},
+//{
+//    "name": "Germany",
+//    "id" :3000,
+//    "match" : [
+//        {
+//            "name" : "Bayern Munich - Borussia Dortmund 2:2",
+//            "id" :3001
+//        },
+//        {
+//            "name" : "Herta Berlin - Wolsburg 1:4",
+//            "id" :3002
+//        }
+//    ]
+//    "leagues": [
+//        {
+//            "name": "BundesLiga",
+//            "id" :3101,
+//            "footballClubs": [
+//                {
+//                    "name": "Bayern Munich",
+//                    "id" :3102
+//                },
+//                {
+//                    "name": "Borussia Dortmund",
+//                    "id" :3103
+//                },
+//                {
+//                    "name": "Herta Berlin",
+//                    "id" :3104
+//                }
+//                {
+//                    "name": "Wolsburg",
+//                    "id" :3105
+//                }
+//            ]
+//            "name": "2. Bundesliga",
+//            "id" :3201,
+//            "footballClubs": [
+//                {
+//                    "name": "Paderborn",
+//                    "id" :3202
+//                },
+//                {
+//                    "name": "Hamburg",
+//                    "id" :3203
+//                },
+//                {
+//                    "name": "Madeburg",
+//                    "id" :3204
+//                }
+//                {
+//                    "name": "Frankfurt",
+//                    "id" :3205
+//                }
+//            ]
+//        }
+//    ]
+//},
+//{
+//    "name": "Azerbaijan",
+//    "id" :4000,
+//    "match" : [
+//        {
+//            "name" : "Bayern Munich - Borussia Dortmund 2:2",
+//            "id" :4001
+//        },
+//        {
+//            "name" : "Herta Berlin - Wolsburg 1:4",
+//            "id" :4002
+//        }
+//    ]
+//    "leagues": [
+//        {
+//            "name": "Premyer liqa",
+//            "id" :4101,
+//            "footballClubs": [
+//                {
+//                    "name": "Qarabagh",
+//                    "id" :4102
+//                },
+//                {
+//                    "name": "Neftchi",
+//                    "id" :4103
+//                },
+//                {
+//                    "name": "Qabala",
+//                    "id" :4104
+//                }
+//                {
+//                    "name": "Sabah",
+//                    "id" :4105
+//                }
+//            ]
+//            "name": "2. Liqa",
+//            "id" :4201,
+//            "footballClubs": [
+//                {
+//                    "name": "Araz",
+//                    "id" :4202
+//                },
+//                {
+//                    "name": "Turan",
+//                    "id" :4203
+//                },
+//                {
+//                    "name": "Bakili",
+//                    "id" :4204
+//                }
+//                {
+//                    "name": "Neftchi Ism",
+//                    "id" :4205
+//                }
+//            ]
+//        }
+//    ]
+//}
+//]
+//
+//
+

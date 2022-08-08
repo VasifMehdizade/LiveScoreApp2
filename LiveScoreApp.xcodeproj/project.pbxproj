@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE31063F288EFD4B009878C7 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31063E288EFD4B009878C7 /* HomePageController.swift */; };
+		CE310645288F0195009878C7 /* livescore.json in Resources */ = {isa = PBXBuildFile; fileRef = CE310644288F0195009878C7 /* livescore.json */; };
+		CE3EA26D288EB65500484DCB /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA26C288EB65500484DCB /* EntryController.swift */; };
+		CE3EA26F288EB69A00484DCB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA26E288EB69A00484DCB /* LoginController.swift */; };
+		CE3EA271288EB6A700484DCB /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA270288EB6A700484DCB /* RegisterController.swift */; };
+		CE3EA273288EBB2700484DCB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA272288EBB2700484DCB /* Model.swift */; };
+		CE46CCFD28941D1600C7F756 /* SearchTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46CCFC28941D1600C7F756 /* SearchTableCell.swift */; };
 		CE662FE1288C1886007F2C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE662FE0288C1886007F2C16 /* AppDelegate.swift */; };
 		CE662FE3288C1886007F2C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE662FE2288C1886007F2C16 /* SceneDelegate.swift */; };
-		CE662FE5288C1886007F2C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE662FE4288C1886007F2C16 /* ViewController.swift */; };
 		CE662FE8288C1886007F2C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE662FE6288C1886007F2C16 /* Main.storyboard */; };
 		CE662FEB288C1886007F2C16 /* LiveScoreApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE662FE9288C1886007F2C16 /* LiveScoreApp.xcdatamodeld */; };
 		CE662FED288C1888007F2C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE662FEC288C1888007F2C16 /* Assets.xcassets */; };
 		CE662FF0288C1888007F2C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE662FEE288C1888007F2C16 /* LaunchScreen.storyboard */; };
+		CEB0A4B6288FFD47008C11C8 /* CountryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4B5288FFD47008C11C8 /* CountryListController.swift */; };
+		CEB0A4B828900C5B008C11C8 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4B728900C5B008C11C8 /* CountryListCell.swift */; };
+		CEB0A4C0289014AC008C11C8 /* ClubsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4BF289014AC008C11C8 /* ClubsListCell.swift */; };
+		CEB0A4C22890172F008C11C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB0A4C12890172F008C11C8 /* Localizable.strings */; };
+		CEB0A4C428903FA4008C11C8 /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = CEB0A4C328903FA4008C11C8 /* matches.json */; };
+		CEB0A4C8289045FF008C11C8 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4C7289045FF008C11C8 /* SearchController.swift */; };
+		CEB0A4CA2890462C008C11C8 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4C92890462C008C11C8 /* InfoController.swift */; };
+		CEB0A4CC28910EAE008C11C8 /* HomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4CB28910EAE008C11C8 /* HomePageCell.swift */; };
+		CEB0A5502892ECBE008C11C8 /* LigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A54F2892ECBE008C11C8 /* LigController.swift */; };
+		CEB0A5522892ECF6008C11C8 /* LigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A5512892ECF5008C11C8 /* LigCell.swift */; };
+		CEFFC5C0289C166A004581F7 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = CEFFC5BF289C166A004581F7 /* Users.json */; };
+		CEFFC5C2289C1C16004581F7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFC5C1289C1C16004581F7 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE31063E288EFD4B009878C7 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		CE310644288F0195009878C7 /* livescore.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = livescore.json; sourceTree = "<group>"; };
+		CE3EA26C288EB65500484DCB /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		CE3EA26E288EB69A00484DCB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CE3EA270288EB6A700484DCB /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		CE3EA272288EBB2700484DCB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE46CCFC28941D1600C7F756 /* SearchTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableCell.swift; sourceTree = "<group>"; };
 		CE662FDD288C1886007F2C16 /* LiveScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE662FE0288C1886007F2C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE662FE2288C1886007F2C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE662FE4288C1886007F2C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE662FE7288C1886007F2C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE662FEA288C1886007F2C16 /* LiveScoreApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveScoreApp.xcdatamodel; sourceTree = "<group>"; };
 		CE662FEC288C1888007F2C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE662FEF288C1888007F2C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE662FF1288C1888007F2C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB0A4B5288FFD47008C11C8 /* CountryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListController.swift; sourceTree = "<group>"; };
+		CEB0A4B728900C5B008C11C8 /* CountryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
+		CEB0A4BF289014AC008C11C8 /* ClubsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsListCell.swift; sourceTree = "<group>"; };
+		CEB0A4C12890172F008C11C8 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CEB0A4C328903FA4008C11C8 /* matches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
+		CEB0A4C7289045FF008C11C8 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		CEB0A4C92890462C008C11C8 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		CEB0A4CB28910EAE008C11C8 /* HomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCell.swift; sourceTree = "<group>"; };
+		CEB0A54F2892ECBE008C11C8 /* LigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigController.swift; sourceTree = "<group>"; };
+		CEB0A5512892ECF5008C11C8 /* LigCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigCell.swift; sourceTree = "<group>"; };
+		CEFFC5BF289C166A004581F7 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		CEFFC5C1289C1C16004581F7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +96,48 @@
 			children = (
 				CE662FE0288C1886007F2C16 /* AppDelegate.swift */,
 				CE662FE2288C1886007F2C16 /* SceneDelegate.swift */,
-				CE662FE4288C1886007F2C16 /* ViewController.swift */,
+				CE8D228D2899717400379FFB /* cells */,
+				CE8D228C2899714100379FFB /* controllers */,
 				CE662FE6288C1886007F2C16 /* Main.storyboard */,
 				CE662FEC288C1888007F2C16 /* Assets.xcassets */,
 				CE662FEE288C1888007F2C16 /* LaunchScreen.storyboard */,
 				CE662FF1288C1888007F2C16 /* Info.plist */,
 				CE662FE9288C1886007F2C16 /* LiveScoreApp.xcdatamodeld */,
+				CE3EA272288EBB2700484DCB /* Model.swift */,
+				CEFFC5BF289C166A004581F7 /* Users.json */,
+				CE310644288F0195009878C7 /* livescore.json */,
+				CEB0A4C12890172F008C11C8 /* Localizable.strings */,
+				CEB0A4C328903FA4008C11C8 /* matches.json */,
 			);
 			path = LiveScoreApp;
+			sourceTree = "<group>";
+		};
+		CE8D228C2899714100379FFB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EA270288EB6A700484DCB /* RegisterController.swift */,
+				CEB0A4B5288FFD47008C11C8 /* CountryListController.swift */,
+				CE31063E288EFD4B009878C7 /* HomePageController.swift */,
+				CEB0A4C7289045FF008C11C8 /* SearchController.swift */,
+				CEB0A54F2892ECBE008C11C8 /* LigController.swift */,
+				CEB0A4C92890462C008C11C8 /* InfoController.swift */,
+				CE3EA26C288EB65500484DCB /* EntryController.swift */,
+				CEFFC5C1289C1C16004581F7 /* TabBarController.swift */,
+				CE3EA26E288EB69A00484DCB /* LoginController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CE8D228D2899717400379FFB /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4CB28910EAE008C11C8 /* HomePageCell.swift */,
+				CEB0A5512892ECF5008C11C8 /* LigCell.swift */,
+				CE46CCFC28941D1600C7F756 /* SearchTableCell.swift */,
+				CEB0A4BF289014AC008C11C8 /* ClubsListCell.swift */,
+				CEB0A4B728900C5B008C11C8 /* CountryListCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +198,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB0A4C22890172F008C11C8 /* Localizable.strings in Resources */,
+				CEB0A4C428903FA4008C11C8 /* matches.json in Resources */,
 				CE662FF0288C1888007F2C16 /* LaunchScreen.storyboard in Resources */,
 				CE662FED288C1888007F2C16 /* Assets.xcassets in Resources */,
+				CE310645288F0195009878C7 /* livescore.json in Resources */,
 				CE662FE8288C1886007F2C16 /* Main.storyboard in Resources */,
+				CEFFC5C0289C166A004581F7 /* Users.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +215,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE662FE5288C1886007F2C16 /* ViewController.swift in Sources */,
+				CE3EA273288EBB2700484DCB /* Model.swift in Sources */,
+				CEB0A5502892ECBE008C11C8 /* LigController.swift in Sources */,
 				CE662FE1288C1886007F2C16 /* AppDelegate.swift in Sources */,
+				CEFFC5C2289C1C16004581F7 /* TabBarController.swift in Sources */,
+				CEB0A4CC28910EAE008C11C8 /* HomePageCell.swift in Sources */,
+				CEB0A5522892ECF6008C11C8 /* LigCell.swift in Sources */,
+				CEB0A4C8289045FF008C11C8 /* SearchController.swift in Sources */,
 				CE662FEB288C1886007F2C16 /* LiveScoreApp.xcdatamodeld in Sources */,
+				CE3EA271288EB6A700484DCB /* RegisterController.swift in Sources */,
+				CEB0A4C0289014AC008C11C8 /* ClubsListCell.swift in Sources */,
+				CE3EA26D288EB65500484DCB /* EntryController.swift in Sources */,
+				CE31063F288EFD4B009878C7 /* HomePageController.swift in Sources */,
+				CEB0A4B828900C5B008C11C8 /* CountryListCell.swift in Sources */,
 				CE662FE3288C1886007F2C16 /* SceneDelegate.swift in Sources */,
+				CEB0A4B6288FFD47008C11C8 /* CountryListController.swift in Sources */,
+				CE3EA26F288EB69A00484DCB /* LoginController.swift in Sources */,
+				CEB0A4CA2890462C008C11C8 /* InfoController.swift in Sources */,
+				CE46CCFD28941D1600C7F756 /* SearchTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
