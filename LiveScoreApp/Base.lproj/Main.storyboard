@@ -470,7 +470,7 @@
             </objects>
             <point key="canvasLocation" x="2572" y="909"/>
         </scene>
-        <!--Country-->
+        <!--Country List-->
         <scene sceneID="INd-en-x9d">
             <objects>
                 <viewController storyboardIdentifier="CountryListController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9me-c4-ess" customClass="CountryListController" customModule="LiveScoreApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -479,7 +479,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Aio-51-f6Z">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="676"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CountryListCell" id="yd9-cu-Goc" customClass="CountryListCell" customModule="LiveScoreApp" customModuleProvider="target">
@@ -495,11 +495,25 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kZ-gG-MUB">
+                                                    <rect key="frame" x="322" y="6" width="80" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="6LW-DC-bXf"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    <connections>
+                                                        <action selector="buttonAction:" destination="9me-c4-ess" eventType="touchUpInside" id="VUd-c4-sHx"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="eWm-PZ-8vq" firstAttribute="leading" secondItem="scl-hB-H0J" secondAttribute="leadingMargin" id="Bgz-aQ-rxG"/>
+                                                <constraint firstAttribute="trailing" secondItem="2kZ-gG-MUB" secondAttribute="trailing" constant="12" id="WxB-L5-f2k"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="eWm-PZ-8vq" secondAttribute="bottom" constant="0.5" id="rXa-Qw-C93"/>
+                                                <constraint firstAttribute="bottom" secondItem="2kZ-gG-MUB" secondAttribute="bottom" constant="6" id="u7d-ul-bbL"/>
                                                 <constraint firstItem="eWm-PZ-8vq" firstAttribute="top" secondItem="scl-hB-H0J" secondAttribute="topMargin" id="uLr-hy-Gj1"/>
+                                                <constraint firstItem="2kZ-gG-MUB" firstAttribute="top" secondItem="scl-hB-H0J" secondAttribute="top" constant="6" id="ybX-dn-ckc"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -522,14 +536,22 @@
                             <constraint firstItem="TPb-fg-1tK" firstAttribute="trailing" secondItem="Aio-51-f6Z" secondAttribute="trailing" id="x1y-bG-0GB"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Country" image="globe" catalog="system" id="x2X-MV-cBT"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Country List" id="Qhu-1b-tCA">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="star.fill" catalog="system" id="b0A-bE-MVd">
+                            <connections>
+                                <action selector="favButton:" destination="9me-c4-ess" id="vvK-9P-BN9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="Aio-51-f6Z" id="haz-di-gsR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAV-yE-o0r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3219" y="909"/>
+            <point key="canvasLocation" x="3287" y="1646"/>
         </scene>
         <!--Search-->
         <scene sceneID="666-od-muI">
@@ -544,14 +566,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LigCell" id="F7R-eZ-hJr" customClass="LigCell" customModule="LiveScoreApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F7R-eZ-hJr" id="d2k-Yz-RfR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buf-o0-xLq">
-                                                    <rect key="frame" x="20" y="11" width="42" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="42" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -589,7 +611,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vch-or-LmE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3197" y="1590"/>
+            <point key="canvasLocation" x="3287" y="2331"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wWN-yJ-me7">
+            <objects>
+                <viewController id="8bj-qO-OEM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dbJ-SB-8ZR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zdq-lo-6vq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZ5-bO-8P4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4585" y="2845"/>
         </scene>
         <!--search-->
         <scene sceneID="qMb-c9-KWF">
@@ -604,14 +641,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SearchTableCell" id="A5a-Ct-imB" customClass="SearchTableCell" customModule="LiveScoreApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A5a-Ct-imB" id="RjW-AX-6A8">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8h-Y2-3Ob">
-                                                    <rect key="frame" x="20" y="11" width="42" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="42" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -628,6 +665,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="D3f-Az-OS3" id="bWB-qj-plX"/>
+                                    <outlet property="delegate" destination="D3f-Az-OS3" id="tlj-7c-RBU"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L2j-Rt-Fd4"/>
@@ -646,7 +687,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lXO-VP-yGC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3957" y="1590"/>
+            <point key="canvasLocation" x="4025" y="1646"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7tO-iJ-Y6B">
@@ -659,7 +700,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9me-c4-ess" kind="relationship" relationship="viewControllers" id="Y4D-rh-KfM"/>
+                        <segue destination="NUc-nk-nhP" kind="relationship" relationship="viewControllers" id="Y4D-rh-KfM"/>
                         <segue destination="JzY-S7-Yyw" kind="relationship" relationship="viewControllers" id="mTv-Y1-jGt"/>
                         <segue destination="GY5-IY-hDF" kind="relationship" relationship="viewControllers" id="mMP-NA-8G2"/>
                         <segue destination="wai-2K-A8n" kind="relationship" relationship="viewControllers" id="dNw-EK-k75"/>
@@ -844,10 +885,10 @@
             </objects>
             <point key="canvasLocation" x="4757.971014492754" y="908.70535714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Favourite Controller-->
         <scene sceneID="GfX-ig-mxX">
             <objects>
-                <viewController id="GMg-2F-chw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavouriteController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GMg-2F-chw" customClass="FavouriteController" customModule="LiveScoreApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yYK-HQ-DtK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -856,15 +897,38 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="k4I-l6-FKa">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavouriteViewCell" id="X2C-cZ-AF5" customClass="FavouriteViewCell" customModule="LiveScoreApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k4I-l6-FKa" id="H9w-3z-seZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X2C-cZ-AF5" id="Xns-2c-9tQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-BL-ncr">
+                                                    <rect key="frame" x="20" y="11" width="100" height="21.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="58r-xy-Rp8"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NJL-BL-ncr" firstAttribute="leading" secondItem="Xns-2c-9tQ" secondAttribute="leadingMargin" id="BOP-2F-qud"/>
+                                                <constraint firstItem="NJL-BL-ncr" firstAttribute="top" secondItem="Xns-2c-9tQ" secondAttribute="topMargin" id="kym-uB-92t"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="NJL-BL-ncr" secondAttribute="bottom" constant="0.5" id="n5h-JI-RXJ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellLabel" destination="NJL-BL-ncr" id="V4a-dS-gRD"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="GMg-2F-chw" id="gL2-f4-w5q"/>
+                                    <outlet property="delegate" destination="GMg-2F-chw" id="V9o-LU-lcI"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ij8-Ae-A9J"/>
@@ -876,6 +940,9 @@
                             <constraint firstItem="ij8-Ae-A9J" firstAttribute="bottom" secondItem="HFO-tM-Cg1" secondAttribute="bottom" id="rHN-UE-f5G"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="HFO-tM-Cg1" id="yeI-Oq-M7E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qr5-cV-pl9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -918,12 +985,32 @@
             </objects>
             <point key="canvasLocation" x="4024.6376811594205" y="908.70535714285711"/>
         </scene>
+        <!--Country-->
+        <scene sceneID="4ie-Nq-ffe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NUc-nk-nhP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Country" image="globe" catalog="system" id="x2X-MV-cBT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rhc-iw-Avn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9me-c4-ess" kind="relationship" relationship="rootViewController" id="hmB-gy-JqO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1QI-zt-JNV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3288" y="909"/>
+        </scene>
     </scenes>
     <resources>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="shift" catalog="system" width="128" height="106"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -21,6 +21,9 @@
 		CE662FED288C1888007F2C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE662FEC288C1888007F2C16 /* Assets.xcassets */; };
 		CE662FF0288C1888007F2C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE662FEE288C1888007F2C16 /* LaunchScreen.storyboard */; };
 		CE66EDA328A393E500A5FC2D /* FavouriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66EDA228A393E500A5FC2D /* FavouriteController.swift */; };
+		CE66EDA528A3954200A5FC2D /* FavouriteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66EDA428A3954200A5FC2D /* FavouriteViewCell.swift */; };
+		CE66EDB028A39CFE00A5FC2D /* List+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66EDAE28A39CFE00A5FC2D /* List+CoreDataClass.swift */; };
+		CE66EDB128A39CFE00A5FC2D /* List+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66EDAF28A39CFE00A5FC2D /* List+CoreDataProperties.swift */; };
 		CEB0A4B6288FFD47008C11C8 /* CountryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4B5288FFD47008C11C8 /* CountryListController.swift */; };
 		CEB0A4B828900C5B008C11C8 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4B728900C5B008C11C8 /* CountryListCell.swift */; };
 		CEB0A4C0289014AC008C11C8 /* ClubsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4BF289014AC008C11C8 /* ClubsListCell.swift */; };
@@ -52,6 +55,9 @@
 		CE662FEF288C1888007F2C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE662FF1288C1888007F2C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE66EDA228A393E500A5FC2D /* FavouriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteController.swift; sourceTree = "<group>"; };
+		CE66EDA428A3954200A5FC2D /* FavouriteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewCell.swift; sourceTree = "<group>"; };
+		CE66EDAE28A39CFE00A5FC2D /* List+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE66EDAF28A39CFE00A5FC2D /* List+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CEB0A4B5288FFD47008C11C8 /* CountryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListController.swift; sourceTree = "<group>"; };
 		CEB0A4B728900C5B008C11C8 /* CountryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
 		CEB0A4BF289014AC008C11C8 /* ClubsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsListCell.swift; sourceTree = "<group>"; };
@@ -117,6 +123,8 @@
 		CE8D228C2899714100379FFB /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CE66EDAE28A39CFE00A5FC2D /* List+CoreDataClass.swift */,
+				CE66EDAF28A39CFE00A5FC2D /* List+CoreDataProperties.swift */,
 				CE3EA270288EB6A700484DCB /* RegisterController.swift */,
 				CEB0A4B5288FFD47008C11C8 /* CountryListController.swift */,
 				CE31063E288EFD4B009878C7 /* HomePageController.swift */,
@@ -139,6 +147,7 @@
 				CE46CCFC28941D1600C7F756 /* SearchTableCell.swift */,
 				CEB0A4BF289014AC008C11C8 /* ClubsListCell.swift */,
 				CEB0A4B728900C5B008C11C8 /* CountryListCell.swift */,
+				CE66EDA428A3954200A5FC2D /* FavouriteViewCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -225,6 +234,8 @@
 				CEB0A4CC28910EAE008C11C8 /* HomePageCell.swift in Sources */,
 				CEB0A5522892ECF6008C11C8 /* LigCell.swift in Sources */,
 				CEB0A4C8289045FF008C11C8 /* SearchController.swift in Sources */,
+				CE66EDB128A39CFE00A5FC2D /* List+CoreDataProperties.swift in Sources */,
+				CE66EDB028A39CFE00A5FC2D /* List+CoreDataClass.swift in Sources */,
 				CE662FEB288C1886007F2C16 /* LiveScoreApp.xcdatamodeld in Sources */,
 				CE3EA271288EB6A700484DCB /* RegisterController.swift in Sources */,
 				CEB0A4C0289014AC008C11C8 /* ClubsListCell.swift in Sources */,
@@ -236,6 +247,7 @@
 				CEB0A4B6288FFD47008C11C8 /* CountryListController.swift in Sources */,
 				CE3EA26F288EB69A00484DCB /* LoginController.swift in Sources */,
 				CEB0A4CA2890462C008C11C8 /* InfoController.swift in Sources */,
+				CE66EDA528A3954200A5FC2D /* FavouriteViewCell.swift in Sources */,
 				CE46CCFD28941D1600C7F756 /* SearchTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

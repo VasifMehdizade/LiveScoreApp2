@@ -33,6 +33,15 @@ class CountryListController: UIViewController {
         }
     }
     
+    @IBAction func buttonAction(_ sender: Any) {
+    }
+    
+    @IBAction func favButton(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "FavouriteController") as! FavouriteController
+        show(controller, sender: nil)
+        
+    }
+    
 }
 
 extension CountryListController : UITableViewDelegate, UITableViewDataSource {

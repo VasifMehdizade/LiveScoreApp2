@@ -28,8 +28,6 @@ class SearchController: UIViewController, UISearchResultsUpdating {
         navigationItem.searchController = searchController
         searchController = UISearchController(searchResultsController: nil)
         searchController.searchBar.delegate = self
-        tableview.delegate = self
-        tableview.dataSource = self
         filterData = data
     }
     
